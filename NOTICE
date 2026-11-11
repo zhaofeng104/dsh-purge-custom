@@ -1,0 +1,38 @@
+dsh-purge
+Copyright 2026 HunYiSage
+
+Source: https://github.com/HunYiSage/dsh-purge
+Maintained by the dsh-purge maintainers team.
+
+This product is licensed under the Apache License, Version 2.0.
+Derivative works must retain this NOTICE and attribution.
+
+--------------------------------------------------------------------------
+Modifications in this repository (Apache License 2.0, Section 4(b))
+
+This repository ("dsh-purge-custom", https://github.com/zhaofeng104/dsh-purge-custom)
+is a modified build derived from:
+  - upstream origin : YuJunZhiXue/dsh-purge (author: 小杨)
+  - baseline        : HunYiSage/dsh-purge version 1.1.90
+  - mirror used     : ZXEB/dsh-purge
+
+Version of this build: 1.2.0
+
+Summary of changes (details in README.md section 2 and CHANGELOG-1.2.md):
+  1. lib/net-scope.js replaced with the 1.1.71 implementation, then modified:
+     installRegionGate() is a no-op and taskTargetHit() always returns null.
+  2. package.json version 1.1.90 -> 1.2.0 with a rewritten description.
+  3. Repository/homepage/bugs/install URLs and the self-update source now
+     point to this repository instead of the upstream mirror.
+  4. Added: package.json exports entry "./presets-plugin", the "skills" entry
+     in the files whitelist, and the bundled presets/unrestricted preset.
+  5. presets/redteam/agent.cordis.yml: removed the obsolete list-agents mount.
+  6. Removed from the published tree: upstream private archives, build caches
+     and local-only artifacts.
+
+The original 1.1.71 implementation of installRegionGate() is retained verbatim
+at lib/net-scope.js.1.1.71-orig so the upstream region/target gate can be
+restored.
+
+Upstream README files are preserved unchanged under docs/upstream/.
+--------------------------------------------------------------------------

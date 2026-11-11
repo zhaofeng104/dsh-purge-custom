@@ -1,0 +1,11 @@
+# 统一使用 LF，仓库内不保留 CRLF
+* text=auto eol=lf
+
+# 二进制/生成物不做换行转换
+*.png binary
+*.jpg binary
+*.ico binary
+*.asar binary
+*.zip binary
+*.tgz binary
+*.exe binary
