@@ -139,7 +139,7 @@ window.__ModuleLoader__.load({ id: "dsh-purge", factory: (require) => {
 			"welcome.title": "用户须知",
 			"welcome.lead": "首次安装本插件时请阅读以下说明。确认后本窗不再弹出。",
 			"welcome.warn": "本插件免费开源。任何未署名的付费转售、倒卖或商业牟利行为，维护团队将依法追究责任。",
-			"welcome.body": "dsh-purge 是 DeepSeek Harness 的本机网络安全红队评测与清洗插件：在受控本机环境中调整提示词与补丁、做授权范围内的演练台操作。项目免费、非营利，源码仓库：",
+			"welcome.body": "dsh-purge 是 DeepSeek Harness 的本机网络安全红队评测与清洗插件：在受控本机环境中调整提示词与补丁、做授权范围内的演练台操作。项目免费、非营利。本构建为 zhaofeng 定制版（1.2.0-custom，与上游官方发布无关），源码仓库：",
 			"welcome.repo": "https://github.com/zhaofeng104/dsh-purge-custom",
 			"welcome.ban1": "禁止将本项目用于未授权的网络攻击、入侵、窃取数据、破坏系统或任何违法犯罪。",
 			"welcome.ban2": "禁止商业售卖、付费倒卖、黑灰产牟利，以及未署名的营利性再分发。",

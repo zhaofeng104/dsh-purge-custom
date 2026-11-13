@@ -2,10 +2,10 @@
   <img src="docs/banner.svg" alt="dsh-purge" width="720">
 </p>
 
-<h1 align="center">dsh-purge 1.2.0 定制版</h1>
+<h1 align="center">dsh-purge 1.2.0 定制版 <sub>by zhaofeng</sub></h1>
 
 <p align="center">
-  <strong>DeepSeek Harness 破甲 / 红队评测插件 · 个人定制构建</strong><br>
+  <strong>DeepSeek Harness 破甲 / 红队评测插件 · <a href="https://github.com/zhaofeng104">zhaofeng</a> 定制构建</strong><br>
   <em>基于上游 <a href="https://github.com/HunYiSage/dsh-purge">HunYiSage/dsh-purge</a> 1.1.90（经 <a href="https://github.com/ZXEB/dsh-purge">ZXEB/dsh-purge</a> 镜像）改造</em>
 </p>
 
@@ -14,8 +14,12 @@
   <img src="https://img.shields.io/badge/license-Apache--2.0-65a30d?style=flat" alt="Apache-2.0">
   <img src="https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=fff" alt="Node.js">
 </p>
+<p align="center">
+  <strong>🔧 本构建由 <a href="https://github.com/zhaofeng104">@zhaofeng</a> 定制</strong><br>
+  <sub>1.2.0-custom · 非上游官方发布 · 修改内容见下文第二节</sub>
+</p>
 
-> **这是个人定制构建，不是上游官方版。**
+> **这是 [@zhaofeng](https://github.com/zhaofeng104) 的个人定制构建，不是上游官方版。**
 > 它把 1.1.90 的攻击范围与目标裁决逻辑换回 1.1.71 的宽松口径，并停用了区域与目标拦截。
 > 想装上游原版，请去 [HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge) 或 [ZXEB/dsh-purge](https://github.com/ZXEB/dsh-purge)。
 > 上游三份 README（中/英/日）原样保留在 [`docs/upstream/`](docs/upstream/)。
@@ -164,6 +168,8 @@ dsh plugin --profile desktop remove dsh-purge
 
 ## 六、声明、署名与许可
 
+**本定制署名**：本仓库（`dsh-purge-custom`）由 **[@zhaofeng](https://github.com/zhaofeng104)** 定制维护，基于 `HunYiSage/dsh-purge` 1.1.90 改造，版本号 `1.2.0`。定制者与上游作者、镜像维护者均无从属关系，也不代表上游立场；上游的任何商业授权不因本仓库的改编而转移给本仓库或其使用者。
+
 **来源与署名（继承上游要求）**：本项目使用上游代码与提示词，原始来源为 **`YuJunZhiXue/dsh-purge`（原作者：小杨）**，本版基线为 **`HunYiSage/dsh-purge` 1.1.90**，经 **`ZXEB/dsh-purge`** 镜像取得。
 
 **本仓库改动声明**（Apache-2.0 §4(b)）：本仓库对上游文件的修改已逐项列在第二节；`NOTICE` 保留上游版权行；`docs/upstream/` 保存上游 README 原件。
@@ -181,3 +187,5 @@ dsh plugin --profile desktop remove dsh-purge
 完整历史见 [release-notes.md](release-notes.md)、本版改造细节见 [CHANGELOG-1.2.md](CHANGELOG-1.2.md)。
 
 > `release-notes.md` 中 1.1.16–1.1.46 共 29 个版本段的中文条目在上游包内即为编码损坏（UTF-8 被按 GBK 解析），本仓库未猜测原文，将损坏块替换为指向同段英文条目的说明；其余段落保持上游原样。
+
+<!-- Customized-by: zhaofeng (https://github.com/zhaofeng104) | build: 1.2.0-custom | based-on: HunYiSage/dsh-purge 1.1.90 -->

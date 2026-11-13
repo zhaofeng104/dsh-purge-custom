@@ -1,8 +1,14 @@
 {
   "name": "dsh-purge",
   "version": "1.2.0",
-  "description": "DeepSeek Harness 破甲 / 红队评测插件 —— 1.2 定制版：以 1.1.90 为基线，攻击范围与道德裁决回退到 1.1.71 宽松口径（已停用区域与目标拦截）。",
-  "author": "dsh-purge maintainers",
+  "description": "DeepSeek Harness 破甲 / 红队评测插件 —— 1.2 定制版（zhaofeng 定制）：以 1.1.90 为基线，攻击范围与道德裁决回退到 1.1.71 宽松口径（已停用区域与目标拦截）。",
+  "author": "dsh-purge maintainers (upstream) · customized by zhaofeng",
+  "contributors": [
+    {
+      "name": "zhaofeng",
+      "url": "https://github.com/zhaofeng104"
+    }
+  ],
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -42,6 +48,13 @@
     "postinstall": "node scripts/ensure-profile-bundle.mjs"
   },
   "license": "Apache-2.0",
+  "dshPurgeCustom": {
+    "customizer": "zhaofeng",
+    "customizerUrl": "https://github.com/zhaofeng104",
+    "build": "1.2.0-custom",
+    "basedOn": "HunYiSage/dsh-purge 1.1.90",
+    "repo": "https://github.com/zhaofeng104/dsh-purge-custom"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",

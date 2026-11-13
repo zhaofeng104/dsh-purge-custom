@@ -12,7 +12,8 @@
   </defs>
   <rect width="720" height="180" fill="url(#bg)"/>
   <rect x="0" y="176" width="720" height="4" fill="url(#accent)"/>
-  <text x="360" y="92" font-family="'Segoe UI', system-ui, sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">dsh-purge-safety</text>
-  <text x="360" y="132" font-family="'Segoe UI', system-ui, sans-serif" font-size="19" fill="#9fb3d8" text-anchor="middle">DeepSeek Harness 规则设定</text>
-  <text x="360" y="160" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#64748b" text-anchor="middle">25 patches · rule sets · session override</text>
+  <text x="360" y="82" font-family="'Segoe UI', system-ui, sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">dsh-purge 1.2.0 · custom</text>
+  <text x="360" y="116" font-family="'Segoe UI', system-ui, sans-serif" font-size="19" fill="#9fb3d8" text-anchor="middle">DeepSeek Harness 破甲 / 红队评测插件</text>
+  <text x="360" y="142" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#a78bfa" text-anchor="middle">customized by zhaofeng</text>
+  <text x="360" y="163" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">86 patches · redteam drill ground · based on HunYiSage 1.1.90</text>
 </svg>

@@ -17,6 +17,8 @@ is a modified build derived from:
   - mirror used     : ZXEB/dsh-purge
 
 Version of this build: 1.2.0
+Customized by        : zhaofeng (https://github.com/zhaofeng104)
+Custom build home    : https://github.com/zhaofeng104/dsh-purge-custom
 
 Summary of changes (details in README.md section 2 and CHANGELOG-1.2.md):
   1. lib/net-scope.js replaced with the 1.1.71 implementation, then modified:

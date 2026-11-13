@@ -1,5 +1,7 @@
 # dsh-purge 1.2.0（定制版）改造说明
 
+> 定制者：**zhaofeng**（https://github.com/zhaofeng104）
+> 定制仓库：https://github.com/zhaofeng104/dsh-purge-custom
 > 构建时间：2026-11-04
 > 基线：`HunYiSage/dsh-purge` **1.1.90**
 > 目标宿主：DSH **0.2.1-rc.2**（`dshTarget` 已对齐）
