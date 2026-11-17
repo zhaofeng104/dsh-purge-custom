@@ -34,3 +34,11 @@ default-prompt-inject.md
 *.asar
 *.asar.bak
 *.bak
+
+# 审查 / 分析产物，不进仓库（仓库只放代码与使用文档）
+/工程代码审查报告.md
+/审查报告*
+/*审查*.md
+
+# 破甲提示词明文（与 lib/default-prompt-inject.md 同理，不入库）
+docs/v1.1.34-prompt-inject.md
