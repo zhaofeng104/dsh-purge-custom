@@ -298,9 +298,8 @@
       name: '@deepseek-ai/dsh-tool-subagent-control'
       disabled: false
 
-    - id: tool-subagent-list-agents
-      name: '@deepseek-ai/dsh-tool-subagent-control/list-agents'
-      disabled: false
+    # [0.2.2 修复] 0.2.2 起 list_agents 已并入 dsh-tool-subagent-control 主入口，
+    # 不再有 /list-agents 子路径；留着这行会让整条 preset 挂载报 never started。
 
     - id: tool-subagent
       name: '@deepseek-ai/dsh-tool-subagent'
